@@ -8,3 +8,15 @@ cirno@MistyLake:~$ rosrun usb_cam usb_cam_node
 
 rosrun usb_cam usb_cam_node _pixel_format:=yuyv _image_width=1024 _image_height=576
 yuyv422
+
+In file included from /home/cirno/vision_ws/src/img_test/src/img_test_displayer.cpp:1:0:
+/home/cirno/vision_ws/src/img_test/src/img_test_displayer.hpp:7:10: fatal error: Eigen/Eigen: No such file or directory
+ #include <Eigen/Eigen>
+          ^~~~~~~~~~~~~
+compilation terminated.
+
+include_directories(
+# include
+  ${catkin_INCLUDE_DIRS}
+  "/usr/include/eigen3"
+)
