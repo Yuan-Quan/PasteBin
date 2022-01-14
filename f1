@@ -1,0 +1,7 @@
+cirno@MistyLake:~$ rosrun usb_cam usb_cam_node 
+[ INFO] [1642153009.666476109]: using default calibration URL
+[ INFO] [1642153009.667293267]: camera calibration URL: file:///home/cirno/.ros/camera_info/head_camera.yaml
+[ INFO] [1642153009.667386697]: Unable to open camera calibration file [/home/cirno/.ros/camera_info/head_camera.yaml]
+[ WARN] [1642153009.667438326]: Camera calibration file /home/cirno/.ros/camera_info/head_camera.yaml not found.
+[ INFO] [1642153009.667457230]: Starting 'head_camera' (/dev/video0) at 640x480 via mmap (mjpeg) at 30 FPS
+[ERROR] [1642153009.669086252]: VIDIOC_S_FMT error 22, Invalid argument
